@@ -146,6 +146,4 @@ $ checker correction 3590920
 
 Enjoy!
 
-## Authors
 
-KoeusIss - HolbertonSchool Student
