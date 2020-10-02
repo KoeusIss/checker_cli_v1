@@ -47,7 +47,7 @@ The checker-cli is project based application whenever you create a new project a
 holberton checker is available you need to initialize the checker-cli in your project directory
 
 ```
-checker init
+$ checker init
 ```
 this command will create `.checker` file in your project directory wich hold all your information,
 credentials and history. keep in mind that in this early `beta` version of the application you need to handle the security of
@@ -56,7 +56,7 @@ your information manually. we are working on in the very soon release.
 in order to get the list of available command ask for help
 
 ```
-checker help
+$ checker help
 
 Usage: checker <command>
 
@@ -83,6 +83,69 @@ your current project.
 * link your holberton email and intranet password
 
 ```
-checker config email 1418@holbertonschool.com
-checker config password <yourpassword>
+$ checker config email 1418@holbertonschool.com
+$ checker config password <yourpassword>
 ```
+* add the API_key and the current project id
+```
+$ checker config api_key <yourapikey>
+$ checker config project  253
+```
+
+### Usage
+Now with all your configuration setup you can move forward by authenticate for
+the intranet API
+
+```
+$ checker authenticate
+```
+This command will keep your auth_token in the .checker dotfile, keep it hiden and deleted every
+just after you test this application. we will noticed you for a secure version of `checker-cli`
+soon in the future
+
+* list all tasks in the project
+```
+$ checker tasks
+
+[ 1233 ] - >>> ht = {}
+[ 1234 ] - djb2
+[ 1235 ] - key -> index
+[ 1236 ] - >>> ht['betty'] = 'holberton'
+[ 1251 ] - >>> ht['betty']
+[ 1252 ] - >>> print(ht)
+[ 1388 ] - >>> del ht
+[ 1253 ] - $ht['Betty'] = 'Holberton'
+
+```
+You will get a list of all the tasks in the current project with the id wich use in in the next request
+
+* Request a correction ID
+
+```
+$ checker ask 1234
+
+Correction ID: 3590920
+```
+
+* Now you are ready to get your correction
+```
+$ checker correction 3590920
+   ┏━━━━━━━━━━━━━┓
+   ┃             ┃
+   ┃   Check 0   ┃
+   ┃             ┃
+   ┗━━━━━━━━━━━━━┛
+
+   ┌─────────────┐
+   │             │
+   │   Check 1   │
+   │             │
+   └─────────────┘
+
+```
+
+Enjoy!
+
+## Authors
+
+KoeusIss - HolbertonSchool Student
