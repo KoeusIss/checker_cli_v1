@@ -148,5 +148,5 @@ Enjoy!
 
 ## Authors
 
-KoeusIss - HolbertonSchool Student
+KoeusIss - HolbertonSchool Student /
 FouedDadi - Holberton school Student
