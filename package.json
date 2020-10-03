@@ -1,5 +1,5 @@
 {
-  "name": "checker",
+  "name": "hol-checker-cli",
   "version": "1.0.0",
   "description": "Holberton checker command line interface",
   "main": "bin/index.js",

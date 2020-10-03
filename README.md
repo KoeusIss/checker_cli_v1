@@ -22,7 +22,18 @@ sudo apt install npm
 * Installing NodeJs via the website
 
 visit the link bellow to start download NodeJs from the nodeJs official website
-(https://nodejs.org)[https://nodejs.org]
+
+[NodeJs](https://nodejs.org)
+
+### Using NPM package manager
+
+Holberton checker command line interface is now as node js package you can run it 
+as one of the npm package
+
+```bash
+npm install -g hol-checker-cli
+```
+If you still like the old way check below from github repository
 
 ### Clone the repository
 
@@ -145,7 +156,3 @@ $ checker correction 3590920
 ```
 
 Enjoy!
-
-## Authors
-
-KoeusIss - HolbertonSchool Student
