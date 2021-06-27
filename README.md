@@ -1,6 +1,5 @@
 ```
-                      Holby Checker CLI
-
+                                        Holby Checker CLI
 ```
 
 # Checker CLI
