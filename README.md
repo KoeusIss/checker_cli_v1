@@ -155,4 +155,7 @@ $ checker correction 3590920
 
 ```
 
+# Authors
+Sebri Issam - Full stack developer and machine learning enthusiast - (Linkedin)[https://www.linkedin.com/in/issam-sebri/] 
+
 Enjoy!
