@@ -156,6 +156,6 @@ $ checker correction 3590920
 ```
 
 # Authors
-Sebri Issam - Machine learning enthusiast & full stack developer - [Linkedin](https://www.linkedin.com/in/issam-sebri/) - [Twitter](https://twitter.com/KoeusIss)
+Issam Sebri - Machine learning enthusiast & full stack developer - [Linkedin](https://www.linkedin.com/in/issam-sebri/) - [Twitter](https://twitter.com/KoeusIss)
 
 Enjoy!
